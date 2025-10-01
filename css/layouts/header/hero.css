@@ -1,0 +1,154 @@
+.hero-section {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-bottom: 9.7rem;
+}
+
+.left-hero {
+  order: 2;
+}
+.right-hero {
+  order: 1;
+}
+
+.hero-sub-title {
+  font-size: 2rem;
+  color: var(--color-2);
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  color: var(--h2-text);
+  margin-bottom: 2rem;
+}
+
+.hero-text {
+  font-size: var(--size-4);
+  margin-bottom: 4rem;
+}
+
+.hero-buttons a {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    padding: 2rem 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-hero {
+    order: -1;
+    margin-top: 4rem;
+    max-width: 50%;
+  }
+
+  .right-hero {
+    flex: 1; /* equal share as content */
+    display: flex;
+    justify-content: center;
+  }
+
+  .h-image {
+    max-width: 100%; /* responsive scaling */
+    height: auto; /* keeps aspect ratio */
+    object-fit: contain;
+  }
+
+  .hero-sub-title {
+    font-size: 1.8rem;
+    color: var(--color-2);
+    margin-bottom: 2rem;
+  }
+  .hero-title {
+    font-size: 3.5rem;
+    color: var(--h2-text);
+    margin-bottom: 2rem;
+    line-height: 1.2;
+  }
+  .hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+  }
+  .hero-buttons a {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 2rem 11.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-sub-title {
+    font-size: 2rem;
+    color: var(--color-2);
+    margin-bottom: 0.8rem;
+  }
+  .hero-title {
+    font-size: var(--size-2);
+    color: var(--h2-text);
+    margin-bottom: 0.8rem;
+    line-height: 1;
+  }
+  .hero-text {
+    font-size: var(--size-4);
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-buttons a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1044px) {
+  .hero-sub-title {
+    font-size: 2rem;
+    color: var(--color-2);
+    margin-bottom: 2rem;
+  }
+  .hero-title {
+    font-size: var(--size-2);
+    color: var(--h2-text);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  .hero-text {
+    font-size: var(--size-4);
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-buttons a {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .hero-sub-title {
+    font-size: 2.8rem;
+    color: var(--color-2);
+    margin-bottom: 2rem;
+  }
+  .hero-title {
+    font-size: var(--size-1);
+    color: var(--h2-text);
+    margin-bottom: 2rem;
+    line-height: 1.2;
+  }
+  .hero-text {
+    font-size: var(--size-4);
+    margin-bottom: 2.5rem;
+  }
+  .hero-buttons a {
+    font-size: 1.6rem;
+  }
+}

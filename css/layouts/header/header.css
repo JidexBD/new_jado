@@ -1,0 +1,28 @@
+/* header */
+.header-section {
+  background-image: url(/images/BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 70vh;
+}
+
+@media (min-width: 768px) {
+  .header-section {
+    background-image: url(/images/BG.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1920px) {
+  .header-section {
+    background-image: url(/images/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
+  }
+}

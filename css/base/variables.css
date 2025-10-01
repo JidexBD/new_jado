@@ -1,0 +1,36 @@
+/* variables stuffs for reuseability */
+:root {
+  /* colors */
+  --text-color: #5e6282;
+  --h1-text: #181e4b;
+  --h2-text: #14183e;
+  /* typography */
+  --size-1: 8.4rem;
+  --size-2: 5rem;
+  --size-3: 2rem;
+  --size-4: 1.6rem;
+  --size-5: 1.8rem;
+  --size-6: 3.3rem;
+
+  /* font-family */
+  --font-1: "Poppins", sans-serif;
+  --font-2: "Volkov", sans-serif;
+
+  /* font-weight  */
+  --w1: 400;
+  --w2: 700;
+  --w3: 600;
+
+  /* colors */
+  --color-1: #f1a501;
+  --color-2: #df6951;
+  --color-3: #006380;
+  --color-4: #84829a;
+  --color-5: #212832;
+
+  /* background-colors */
+  --bc-1: #ffffff;
+  --bc-2: linear-gradient(45deg, #747def, #5e3be1);
+  --bc-3: linear-gradient(45deg, #ff946d, #ff7d68);
+  --bc-4: #dfd7f9;
+}
