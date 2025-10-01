@@ -77,8 +77,8 @@
     margin-bottom: 2.5rem;
   }
   .hero-buttons a {
-    font-size: 1.6rem;
-  }
+    font-size: 1.4rem;
+  }s
 }
 @media (min-width: 1024px) {
   .hero-section {
