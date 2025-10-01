@@ -78,8 +78,9 @@
   }
   .hero-buttons a {
     font-size: 1.4rem;
-  }s
+  }
 }
+
 @media (min-width: 1024px) {
   .hero-section {
     padding: 2rem 11.8rem;
@@ -148,6 +149,7 @@
     font-size: var(--size-4);
     margin-bottom: 2.5rem;
   }
+
   .hero-buttons a {
     font-size: 1.6rem;
   }
