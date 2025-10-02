@@ -1,5 +1,5 @@
 .top-section {
-  padding: 2rem 3rem;
+  padding: 3rem auto;
 }
 
 .top-heading {
@@ -9,6 +9,9 @@
 
 .top-container {
   display: grid;
+  gap: 3.4rem;
+  place-items: center;
+  position: relative;
 }
 
 .top-card {
@@ -53,16 +56,90 @@
   gap: 2rem;
 }
 
+.deco-top {
+  position: absolute;
+  right: -3rem;
+  bottom: 1rem;
+  z-index: -1;
+}
+
 /* media */
 
 @media (min-width: 768px) {
+  .top-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.4rem;
+    place-items: center;
+  }
+
+  .deco-top {
+    position: absolute;
+    right: 35rem;
+    bottom: 1rem;
+    z-index: -1;
+  }
 }
 
 @media (min-width: 1024px) {
+  .top-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.4rem;
+    place-items: center;
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .deco-top {
+    position: absolute;
+    right: -6.8rem;
+    bottom: 3rem;
+    z-index: -1;
+  }
 }
 
 @media (min-width: 1044px) {
+  .top-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.4rem;
+    place-items: center;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
+  }
+
+  .deco-top {
+    position: absolute;
+    right: -4rem;
+    bottom: 3rem;
+    z-index: -1;
+  }
 }
 
 @media (min-width: 1920px) {
+  .top-subheading {
+    font-size: 1.6rem;
+  }
+
+  .top-header {
+    font-size: 3.5rem;
+  }
+
+  .top-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.4rem;
+    place-items: center;
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+
+  .deco-top {
+    position: absolute;
+    right: 3.5rem;
+    bottom: 3rem;
+    z-index: -1;
+  }
 }

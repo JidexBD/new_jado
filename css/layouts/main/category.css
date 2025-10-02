@@ -34,11 +34,14 @@
 }
 
 .cat-img {
-  margin: 1rem 13rem;
+  margin: 0rem 11rem;
+  text-align: center;
 }
 
 .c1 {
+  display: block;
   height: 4rem;
+  width: auto;
 }
 
 .cat-image-absolute {
@@ -282,6 +285,14 @@
 }
 
 @media (min-width: 1920px) {
+  .category-subheader {
+    font-size: 1.6rem;
+  }
+
+  .category-header {
+    font-size: 3.5rem;
+  }
+
   .c1 {
     height: 7.8rem;
   }
