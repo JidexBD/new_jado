@@ -4,3 +4,6 @@
 @import url(/css/layouts//header/header.css);
 @import url(/css/layouts//header/nav.css);
 @import url(/css/layouts//header/hero.css);
+
+@import url(/css/layouts/main/main.css);
+@import url(/css/layouts/main/category.css);
