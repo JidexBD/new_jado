@@ -1,0 +1,281 @@
+.testimonial-section {
+  display: grid;
+  gap: 8rem;
+}
+
+.test-header {
+  font-size: 3rem;
+  color: var(--h2-text);
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.dot-nav {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.testimonial-right {
+  position: relative;
+}
+
+.dot {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--h2-text);
+  border-radius: 50%;
+}
+
+.testimonial {
+  padding: 2rem;
+  width: 30rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 2.8rem;
+  position: relative;
+  margin-bottom: 5rem;
+  background-color: white;
+}
+
+.test-img {
+  position: absolute;
+  left: -2rem;
+  top: -4rem;
+}
+
+.test-2 {
+  position: absolute;
+  top: 8rem;
+  left: 2rem;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.testimonial p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.name-dest {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.s-name {
+  font-weight: 600;
+}
+
+/* media */
+
+@media (min-width: 768px) {
+  .testimonial-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+    padding: 1rem;
+  }
+
+  .test-header {
+    font-size: 3rem;
+    color: var(--h2-text);
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  .dot-nav {
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .testimonial-right {
+    position: relative;
+    margin-top: 3.5rem;
+  }
+
+  .dot {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--h2-text);
+    border-radius: 50%;
+  }
+
+  .testimonial {
+    padding: 2rem;
+    width: 35rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 2.8rem;
+    position: relative;
+    margin-bottom: 5rem;
+    background-color: white;
+  }
+
+  .test-img {
+    position: absolute;
+    left: -2rem;
+    top: -4rem;
+  }
+
+  .test-2 {
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .testimonial p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .name-dest {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .s-name {
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonial-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14rem;
+    padding: 2rem 11rem;
+  }
+
+  .test-header {
+    font-size: 4.5rem;
+    color: var(--h2-text);
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  .dot-nav {
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .testimonial-right {
+    position: relative;
+    margin-top: 3.5rem;
+  }
+
+  .dot {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--h2-text);
+    border-radius: 50%;
+  }
+
+  .testimonial {
+    padding: 2rem;
+    width: 35rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 2.8rem;
+    position: relative;
+    margin-bottom: 5rem;
+    background-color: white;
+  }
+
+  .test-img {
+    position: absolute;
+    left: -2rem;
+    top: -4rem;
+  }
+
+  .test-2 {
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .testimonial p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .name-dest {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .s-name {
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 1044px) {
+}
+
+@media (min-width: 1920px) {
+  .testimonial-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18rem;
+    padding: 2rem 12rem;
+  }
+
+  .test-header {
+    font-size: 4.5rem;
+    color: var(--h2-text);
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  .dot-nav {
+    margin-top: 10rem;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .testimonial-right {
+    position: relative;
+    margin-top: 4rem;
+  }
+
+  .dot {
+    width: 1rem;
+    height: 1rem;
+    background-color: var(--h2-text);
+    border-radius: 50%;
+  }
+
+  .testimonial {
+    padding: 2rem 5rem;
+    width: 35rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 2.8rem;
+    position: relative;
+    margin-bottom: 5rem;
+    background-color: white;
+  }
+
+  .test-img {
+    position: absolute;
+    left: -2rem;
+    top: -4rem;
+  }
+
+  .test-2 {
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .testimonial p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}
