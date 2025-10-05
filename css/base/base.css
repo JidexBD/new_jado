@@ -26,3 +26,8 @@ img {
 a {
   text-decoration: none;
 }
+
+li {
+  font-size: 1.3rem;
+  list-style: none;
+}
